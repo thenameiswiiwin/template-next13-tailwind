@@ -6,5 +6,5 @@ export default function Head() {
       <meta name="description" content="NextJS 13 template with tailwind" />
       <link rel="icon" href="/favicon.ico" />
     </>
-  )
+  );
 }
