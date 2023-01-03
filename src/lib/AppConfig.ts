@@ -1,5 +1,5 @@
 export const AppConfig = {
-  header: "header",
-  main: "main",
-  footer: "footer",
-}
+  header: 'header',
+  main: 'main',
+  footer: 'footer',
+};

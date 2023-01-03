@@ -1,5 +1,5 @@
-import { AppConfig } from '@/lib/AppConfig';
-import { Container } from '@/components/Container';
+import { AppConfig } from '@lib/AppConfig';
+import { Container } from '@components/Container';
 
 export default function Homepage() {
   return (
