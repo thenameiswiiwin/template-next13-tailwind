@@ -1,7 +1,18 @@
+import { AppConfig } from '@/lib/AppConfig';
+import { Container } from '@/components/Container';
+
 export default function Homepage() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <header>
+        <Container>{AppConfig.header}</Container>
+      </header>
+      <main>
+        <Container>{AppConfig.main}</Container>
+      </main>
+      <footer>
+        <Container>{AppConfig.footer}</Container>
+      </footer>
     </div>
   );
 }
