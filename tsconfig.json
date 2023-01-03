@@ -18,7 +18,13 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@/lib/*": ["./lib/*"],
+      "@/components/*": ["./components/*"],
+      "@/assets/*": ["./assets/*"],
+      "@/styles/*": ["./styles/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
