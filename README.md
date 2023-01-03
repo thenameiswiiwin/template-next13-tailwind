@@ -8,6 +8,8 @@ Starter for Next JS 13, Tailwind CSS, TypeScript, ESLint, Prettier, Husky, Lint-
 - Type checking [TypeScript](https://www.typescriptlang.org)
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
+- Easily construct component variants with [CVA](https://github.com/joe-bell/cva)
+- Utility for constructing `classname` strings conditionally with [clsx](https://github.com/lukeed/clsx)
 - Code Formatter with [Prettier](https://prettier.io)
 - Husky for Git Hooks
 - Lint-staged for running linters on Git staged files
