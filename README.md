@@ -42,14 +42,15 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ```shell
 .
 ├── README.md                       # README file
-├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
 ├── public                          # Public assets folder
 ├── src
 │   ├── app                         # Layouts components, error components, and loading components
+│   ├── assets                      # Images and fonts
+│   └── components                  # React components
+│   └── lib                         # Utility functions
 │   ├── pages                       # Next JS Pages
 │   ├── styles                      # Styles folder
-│   └── lib                         # Utility functions
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
